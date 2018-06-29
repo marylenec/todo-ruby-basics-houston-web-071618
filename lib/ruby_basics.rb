@@ -14,12 +14,10 @@ def argue(phrase)
 end
 argue("I'm right and you are wrong!")
 
-greeting ="Hi there, "
-
 def greeting(greeting,name)
- puts "#{greeting}" + name
+ puts "#{greeting}" + "#{name}"
 end
-greeting(greeting, "Bobby!")
+greeting("Hi there, ", "Bobby!")
 
 def return_a_value(phrase)
   return phrase
