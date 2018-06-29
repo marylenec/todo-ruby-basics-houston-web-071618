@@ -24,11 +24,12 @@ def return_a_value(phrase)
 end
 return_a_value("Nice")
 
-def last_evaluated_value(phrase)
+def return_a_value(phrase)
+  phrase
+  # binding.pry
   phrase = "expert"
-  return phrase
+  phrase
 end
-last_evaluated_value("Nice")
 
 def pizza_party(topping = "cheese")
   topping
