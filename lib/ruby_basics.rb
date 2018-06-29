@@ -15,7 +15,6 @@ end
 argue("I'm right and you are wrong!")
 
 def greeting(greeting,name = "Bobby!")
- name =  "#{name}"
  puts "#{greeting}" + name
 end
 greeting("Hi there, ", "Bobby!"))
