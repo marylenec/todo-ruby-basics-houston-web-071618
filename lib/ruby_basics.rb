@@ -30,6 +30,7 @@ def return_a_value(phrase)
   phrase = "expert"
   phrase
 end
+return_a_value("Nice")
 
 def pizza_party(topping = "cheese")
   topping
